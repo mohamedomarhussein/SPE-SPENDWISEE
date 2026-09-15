@@ -13,6 +13,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    
 }
 
 body {
@@ -22,4 +23,10 @@ body {
     background-color: #f0f0f0;
 }
 
-bac
+hover {
+    background-color: lightblue;
+    pointer-events: none;
+    selector: hover;
+    
+    }
+}
