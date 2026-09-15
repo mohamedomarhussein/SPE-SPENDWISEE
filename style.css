@@ -3,7 +3,9 @@ h1 {
     font-size: 24px;
     
     background-color: green;
-    ho
+    border: 1px solid black;
+    height: 1px hover;
+
 
 
 }
@@ -26,10 +28,21 @@ body {
     background-color: #f0f0f0;
 }
 
-hover {
+button:hover {
     background-color: lightblue;
     pointer-events: none;
     selector: hover;
     
     }
+h1:hover {
+    color: blue;
+    background-color: yellow;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+body:hover {
+    background-color: blue;
+    color: white;
+    transition: background-color 0.3s ease;
 }
