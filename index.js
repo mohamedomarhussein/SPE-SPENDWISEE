@@ -15,3 +15,11 @@ let expenseDate = "2023-06-01";
 console.log("expenseName: " + expenseName);
 console.log("expenseAmount: " + expenseAmount);
 console.log("expenseDate: " + expenseDate);
+
+let expenseName2 = "groceries";
+let expenseAmount2 = 500;
+let expenseDate2 = "2023-06-05";
+
+console.log("expenseName2: " + expenseName2);
+console.log("expenseAmount2: " + expenseAmount2);
+console.log("expenseDate2: " + expenseDate2);
