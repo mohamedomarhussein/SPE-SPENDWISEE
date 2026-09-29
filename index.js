@@ -51,3 +51,12 @@ console.log("isBudgetExceeded: " + isBudgetExceeded);
 
 let isExpenseAffordable = expenseAmount <= remainingBudget;
 console.log("isExpenseAffordable: " + isExpenseAffordable);
+
+// 4. arrays
+
+let expenses = [
+  { name: expenseName, amount: expenseAmount, date: expenseDate },
+  { name: expenseName2, amount: expenseAmount2, date: expenseDate2 }
+];
+
+console.log("expenses: ", expenses);
