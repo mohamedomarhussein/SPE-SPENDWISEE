@@ -60,3 +60,11 @@ let expenses = [
 ];
 
 console.log("expenses: ", expenses);
+
+let expenseNames = expenses.map(expense => expense.name);
+console.log("expenseNames: ", expenseNames);
+
+let expenseAmounts = expenses.map(expense => expense.amount);
+console.log("expenseAmounts: ", expenseAmounts);
+
+// 5. objects
