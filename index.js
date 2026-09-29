@@ -4,3 +4,6 @@ console.log("monthlyBudget: " + monthlyBudget);
 
 appName = "spending-tracker";
 console.log("appName: " + appName);
+
+name = "maslah";
+console.log("name: " + name);
