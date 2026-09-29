@@ -23,3 +23,9 @@ let expenseDate2 = "2023-06-05";
 console.log("expenseName2: " + expenseName2);
 console.log("expenseAmount2: " + expenseAmount2);
 console.log("expenseDate2: " + expenseDate2);
+
+let totalExpenses = expenseAmount + expenseAmount2;
+console.log("totalExpenses: " + totalExpenses);
+
+let remainingBudget = monthlyBudget - totalExpenses;
+console.log("remainingBudget: " + remainingBudget);
