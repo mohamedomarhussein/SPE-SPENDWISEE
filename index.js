@@ -37,3 +37,9 @@ let num2 = 5;
 
 let sum = num1 + num2;
 console.log("sum: " + sum);
+
+let difference = num1 - num2;
+console.log("difference: " + difference);
+
+let product = num1 * num2;
+console.log("product: " + product);
