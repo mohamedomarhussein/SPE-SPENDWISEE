@@ -43,3 +43,11 @@ console.log("difference: " + difference);
 
 let product = num1 * num2;
 console.log("product: " + product);
+
+// 3. booleans
+
+let isBudgetExceeded = remainingBudget < 0;
+console.log("isBudgetExceeded: " + isBudgetExceeded);
+
+let isExpenseAffordable = expenseAmount <= remainingBudget;
+console.log("isExpenseAffordable: " + isExpenseAffordable);
