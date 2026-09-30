@@ -67,4 +67,28 @@ console.log("expenseNames: ", expenseNames);
 let expenseAmounts = expenses.map(expense => expense.amount);
 console.log("expenseAmounts: ", expenseAmounts);
 
-// 5. objects
+// combine varialbles and datatypes
+
+let budgetSummary = {
+  appName: appName,
+  monthlyBudget: monthlyBudget,
+  totalExpenses: totalExpenses,
+  remainingBudget: remainingBudget,
+  expenses: expenses
+};
+
+console.log("budgetSummary: ", budgetSummary);
+
+// 5. functions
+
+function addExpense(name, amount, date) {
+  let newExpense = { name: name, amount: amount, date: date };
+  expenses.push(newExpense);
+  totalExpenses += amount;
+  remainingBudget -= amount;
+  console.log("Added expense: ", newExpense);
+  console.log("Updated totalExpenses: " + totalExpenses);
+  console.log("Updated remainingBudget: " + remainingBudget);
+}
+
+addExpense("utilities", 200, "2023-06-10");
